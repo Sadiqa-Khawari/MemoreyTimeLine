@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Tervetuloa päiväkirjaan</h1>
+    </header>
+    <nav>
+        <a href="/">General Page</a>
+        <a href="/memories/">Muistoja</a>
+        <a href="/admin/">Admin</a>
+    </nav>
+    <main>
+        <h2>Kirjoita muistelma.</h2>
+        <p>Share</p>
+    </main>
+</body>
+</html>
